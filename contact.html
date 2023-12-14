@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/chatbox.css">
+    <link rel="stylesheet" href="css/phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <title>Blek - About</title>
+</head>
+<body>
+
+    <input type="checkbox" id="menu-toggle">
+    <div class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="purchase.html">PURCHASE</a></li>
+                <li><a href="contact.html" class="menuSelected">CONTACT</a></li>
+            </ul>
+        </div>
+        <label for="menu-toggle" class="menu-toggle">&#8801;</label>
+    </div>
+
+    <div class="body">
+        <div class="mainPage">
+            
+            <div class="info">
+                <div class="mainText">
+                    <h1>Email:</h1>
+                    <h2>steinarssonk@gmail.com</h2>
+                </div>
+            </div>
+        
+            <div class="info">
+                <div class="mainText">
+                    <h1>Símanúmer:</h1>
+                    <h2>+354 581 2345</h2>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="mainText">
+                    <h1>Staðsetning:</h1>
+                    <h2>Háteigsvegur 35-39, 105 Reykjavík</h2>
+                </div>
+            </div>
+
+            <div class="chatbox">
+                <h1>Sentu skilaboð:</h1>
+                <form id="contactForm">
+                    <div class="spurningar">
+                        <label for="name">Nafn:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+        
+                    <div class="spurningar">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+        
+                    <div class="spurningar">
+                        <label for="message">Skilaboð:</label><br>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+        
+                    <button type="submit" id="submitButton">Submit</button>
+                </form>
+            </div>
+        </div>
+        
+        </div>
+
+</body>
+
+<div class="padding"></div>
+
+<footer>Kristján V. Steinarsson | Tækniskólinn | steinarssonk@gmail.com</footer>
+</html>

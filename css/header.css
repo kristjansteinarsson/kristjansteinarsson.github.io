@@ -1,0 +1,71 @@
+/* --- Main Header --- */
+.header{
+    background-color: black;
+    padding: 10px; 
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--font);
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.logo{
+    background-color: white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    border-radius: 50%;
+    border: 2px solid;
+    transition: 1s;
+}
+
+.logo img{
+    height: 5em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+/* --- Menu --- */
+.menu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+.menuSelected{
+    background-color: var(--pink);
+    padding: 3mm;
+    border-radius: 25px;
+}
+
+.menu .menuSelected:hover{
+    color: var(--black);
+}

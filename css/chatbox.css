@@ -1,0 +1,50 @@
+.bodyChat{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    margin-top: 2em;
+    font-family: var(--font);
+    border-radius: 20px;
+    width: 70%;
+}
+
+.bodyChat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbox {
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.spurningar {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}

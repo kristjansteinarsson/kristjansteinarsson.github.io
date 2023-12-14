@@ -1,0 +1,58 @@
+@media (max-width: 48em) {
+    .slideshow{
+        width: 100%;
+    }
+
+    .slideshowBody{
+        width: 60%;
+    }
+
+    .slideshow img{
+        width: 50%;
+        height: 70%;
+       }
+
+    .body{
+        transform: translateX(-16%);
+        width: 140%;
+    }
+
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sprLeik{
+        font-size: 20px;
+    }
+
+    .info{
+        text-align: left;
+    }
+
+    .chatbox{
+        width: 80%;
+    }
+
+    .inkBox {
+        border: 1px solid #ccc;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .location{
+        width: 250px;
+        height: 250px;
+    }
+
+    footer{
+        display: block;
+        font-size: 15px;
+        transform: translateX(-70%);
+        margin-top: 5em;
+        margin-top: 10em;
+    }
+
+}

@@ -1,0 +1,31 @@
+
+.inkTable {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    width: 50%;
+    font-size: 16px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.inkTable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.inkTable th, .inkTable td {
+    border: 1px solid black;
+}
+
+.inkTable th{
+    border: 2px solid black;
+}
+
+.inkTable h6 {
+    margin-top: 10px;
+    text-align: right;
+}
